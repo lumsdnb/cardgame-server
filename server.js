@@ -52,14 +52,6 @@ const finalVotes = {
   spectators: '',
 };
 
-//  {
-//    body: 'fuk u',
-//    role: 'affirmative',
-//    judgeRating: 0,
-//    spectatorRating: 0,
-//    whoVoted []
-//  }
-
 function pushToUserArray(arr, obj) {
   const index = arr.findIndex((e) => e.id === obj.id);
   console.log(index);
